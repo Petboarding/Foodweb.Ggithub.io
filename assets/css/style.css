@@ -1,0 +1,534 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+:root{
+	--bg:#FEFDFD ;
+	--btn:#39DB4A;
+	--box:#5FE26C;
+	--orng:#FF6868;
+	--bxp:#90BD95;
+	--p:#90BD95;
+	--font-familyh: 'Belleza', sans-serif;
+    --font-familyp: 'Ropa Sans', sans-serif;
+}
+html{
+	font-size: 16px;
+}
+body{
+	width: 100%;
+
+
+
+}
+
+
+
+/*-----------------------------*/
+.main-bg{
+	background-color:var(--bg);
+	/*height: 800px;*/
+	/*width: 100%;*/
+}
+.main-bg  .navbar .navbar-nav .nav-item{
+	padding: 1.6rem;
+	color:#000;
+}
+ .main-bg   .navbar{
+ 	background-color:#f8f8f8;
+	
+
+	
+
+
+}
+.main-bg  .navbar .navbar-nav .nav-item .nav-link{
+	color:#272727;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-style: normal;
+	transition: all .3s;
+	font-family: var(--font-familyh);
+}
+.main-bg  .navbar .navbar-nav .nav-item .nav-link:hover{
+	color: var(--btn);
+
+
+}
+.main-bg  .navbar .navbar-nav .nav-item  #active{
+	color:var(--btn);
+}
+.main-bg  .navbar .icns img{
+	padding: 20px;
+}
+.main-bg .navbar .icns button {
+	width: 8.5rem;
+	height: 3.1rem;
+	background-color: var(--btn);
+	color: #fff;
+	border-radius: 1.2rem;
+	color: #fff;
+	font-family: var(--font-familyh);
+	transition: .3s;
+	font-size: 1rem;
+}
+.main-bg  .navbar .icns  .btn span {
+margin-left: 10px;
+font-size: 1.2rem;
+font-weight: 400;
+
+}
+.main-bg  .navbar .icns  .btn:hover{
+	
+	background-color:#000;
+	color: #fff;
+}
+.main-bg .navbar  .navbar-toggler-icon i{
+	color: var(--btn);
+	
+}
+/*-----------bnr-sec-------------------*/
+.main-bg .container  .bnr-sec{
+	margin-top: 10rem;
+}
+.main-bg .container  .bnr-sec .clml h2{
+	font-size: 4rem;
+	color: #000;
+	font-weight: 600;
+	font-family: var(--font-familyh);
+	line-height: 5.5rem;
+}
+.main-bg .container  .bnr-sec .clml h2 span{
+	color: var(--btn);
+	font-weight: 700;
+    font-size: 4.5rem;
+
+}
+.main-bg .container  .bnr-sec .clml p{
+	font-size: 1.2rem;
+	color: var(--p);
+	font-weight: 400;
+	font-family: var(--font-familyp);
+	line-height: 2rem;
+	margin-top: 1.5rem;
+
+
+}
+.main-bg .container  .bnr-sec .clml button {
+	width: 9rem;
+	height: 3.4rem;
+	background-color: var(--btn);
+	color: #fff;
+	border-radius: 1.2rem;
+	color: #fff;
+	font-family: var(--font-familyp);
+	filter: drop-shadow(1px  1px 10px #39DB4A );
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	transition: .5s;
+}
+.main-bg .container  .bnr-sec .clml button:hover{
+	background-color: var(--bg);
+	color: #000;
+
+}
+.main-bg .container  .bnr-sec .clml strong{
+	font-size: 1.5rem;
+	color: var(--p);
+	font-weight: 500;
+	font-family: var(--font-familyp);
+	color:#000;
+	margin-left: 2.5rem;
+	padding-top: 1rem;
+	cursor: pointer;
+
+}
+.main-bg .container  .bnr-sec .clml .b{
+	display: inline-block;
+	position: relative;
+	top: .8rem;
+}
+
+.main-bg .container  .bnr-sec .clml .b i{
+	background-color:#f8f8f4;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	text-align: center;
+	/*margin-left: 1rem;*/
+	/*padding-top: 1rem;*/
+	font-size: 2.7rem;
+	padding: 1.2rem;
+	margin-left: 3rem;
+	cursor: pointer;
+
+}
+.main-bg .container  .bnr-sec  .crcl{
+	width: 29rem;
+	height: 29rem;
+	border-radius: 50%;
+	background-color: var(--btn);
+	margin-left: 5rem;
+	margin-top: -1rem;
+	
+
+}
+.main-bg .container  .bnr-sec .clmr .crcl #grl{
+	padding-top: 2.3rem;
+
+}
+/*------------------ctgry-sec-----------------------------------------*/
+.main-bg .container .ctgry-sec{
+	margin-top: 13rem;
+} 
+.main-bg .container .ctgry-sec h3{
+	font-size: 3.6rem;
+	color: #000;
+	font-weight: 600;
+	font-family: var(--font-familyh);
+	line-height: 5.5rem;
+
+}
+.main-bg .container .ctgry-sec span{
+	font-size: 1rem;
+	color: var(--orng);
+	font-weight: 600;
+	font-family: var(--font-familyp);
+	line-height: 2.5rem;
+	letter-spacing: 2px;
+
+}
+.main-bg .container .ctgry-sec #row{
+	margin-top: 4.5rem;
+}
+.main-bg .container .ctgry-sec .cnt{
+	background-color:#f8f8f4;
+	height: 17.6rem;
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 5%;
+	transition: .2s;
+	cursor: pointer;
+}
+.main-bg .container .ctgry-sec .cnt:hover{
+	margin-top: -.4rem;
+}
+.main-bg .container .ctgry-sec  h4{
+	font-size: 1.8rem;
+	color: #000;
+	font-weight: 400;
+	font-family: var(--font-familyp);
+	line-height:2rem;
+	padding-top: 1rem;
+
+
+}
+.main-bg .container .ctgry-sec  p{
+	font-size: 1rem;
+	color: #000;
+	font-weight: 300;
+	font-family: var(--font-familyp);
+	line-height:1rem;
+
+}
+
+/*---------------------Cutomer sec---------------------*/
+.main-bg .container .cstnr-sec  {
+	margin-top: 10rem;
+}
+
+
+.main-bg .container .cstnr-sec .cnt {
+	padding-top: 9rem;
+
+}
+.main-bg .container .cstnr-sec .cnt span{
+	font-size: 1rem;
+	color: var(--orng);
+	font-weight: 600;
+	font-family: var(--font-familyp);
+	line-height: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.main-bg .container .cstnr-sec .cnt h4{
+	font-size:4rem;
+	color: #000;
+	font-weight: 600;
+	font-family: var(--font-familyh);
+	line-height:5rem;
+	padding-top: 1rem;
+
+
+}
+.main-bg .container .cstnr-sec .cnt p{
+	font-size: 1.1rem;
+	color: var(--p);
+	font-weight: 300;
+	font-family: var(--font-familyp);
+	line-height:2rem;
+	margin-top: 1.6rem;
+
+}
+.main-bg .container .cstnr-sec .cnt .fdbck{
+	display: inline-block;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-family: var(--font-familyp);
+
+
+}
+.main-bg .container .cstnr-sec #gg{
+	margin-top: -2.5rem;
+}
+.main-bg .container .cstnr-sec .cnt .fdbck h6{
+	margin-top: 2rem;
+	font-size: 1.1rem;
+
+
+}
+.main-bg .container .cstnr-sec .cnt .fdbck .pp{
+	font-size: 3rem;
+	font-weight: bold;
+}
+.main-bg .container .cstnr-sec .cnt .fdbck .pp  a{
+	text-decoration: none;
+	color: #000;
+}
+.main-bg .container .cstnr-sec .cnt .fdbck .pp h6{
+	font-size: 4rem;
+}
+/*---------------------------------sldr-sec------------------------------------*/
+
+.main-bg  .container .sldr-sec{
+	margin-top: 10rem;
+}
+.main-bg  .container .sldr-sec .owl-carousel{
+	margin-top: 3rem;
+}
+.main-bg  .container .sldr-sec .text span{
+	font-size: 1rem;
+	color: var(--orng);
+	font-weight: 600;
+	font-family: var(--font-familyp);
+	line-height: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.main-bg  .container .sldr-sec .text h4{
+	font-size:3.4rem;
+	color: #000;
+	font-weight: 600;
+	font-family: var(--font-familyh);
+	line-height:5rem;
+/*	padding-top: 1rem;*/
+
+
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card{
+	height: 22rem;
+	background-color:#f8f8f4;
+	border-radius: 1rem;
+}
+
+.main-bg  .container .sldr-sec .owl-carousel .item .card img{
+	width:13rem;
+	display: block;
+	margin: auto;
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card h5{
+	font-size:1.5rem;
+	color: #000;
+	font-weight: 400;
+	font-family: var(--font-familyp);
+
+
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card p{
+	font-size:1rem;
+	color: #000;
+	font-family: var(--font-familyp);
+
+
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card i{
+	color: yellow;
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card strong{
+	font-family: var(--font-familyp);
+	font-size: 1.1rem;
+
+}
+.main-bg  .container .sldr-sec .owl-carousel .item .card span{
+	font-family: var(--font-familyp);
+	font-size: 1.1rem;
+
+
+}
+
+/*--------------------------------Cstmr sec---------------------------------*/
+.main-bg .container .cstmr-sec{
+	margin-top: 10rem;
+}
+.main-bg .container .cstmr-sec .cnt {
+	margin-top: 2rem;
+	
+}
+
+.main-bg .container .cstmr-sec .cnt span{
+	font-size: 1rem;
+	color: var(--orng);
+	font-weight: 600;
+	font-family: var(--font-familyp);
+	line-height: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.main-bg .container .cstmr-sec .cnt h4{
+	font-size:4rem;
+	color: #000;
+	font-weight: 600;
+	font-family: var(--font-familyh);
+	line-height:5rem;
+	padding-top: 1rem;
+
+
+}
+.main-bg .container .cstmr-sec .cnt p{
+	font-size: 1.1rem;
+	color: var(--p);
+	font-weight: 300;
+	font-family: var(--font-familyp);
+	line-height:2rem;
+	margin-top: 1.8rem;
+	opacity: 50%;
+
+}
+.main-bg .container .cstmr-sec .cnt button{
+    width: 9rem;
+	height: 3.4rem;
+	background-color: var(--btn);
+	color: #fff;
+	border-radius: 1.2rem;
+	color: #fff;
+	font-family: var(--font-familyp);
+	filter: drop-shadow(1px  1px 10px #39DB4A );
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	transition: .5s;
+}
+.main-bg .container .cstmr-sec .cnt button:hover{
+	background-color: var(--bg);
+	color: #000;
+
+
+}
+.main-bg .container .cstmr-sec .clmr .inr-cnt{
+
+	background-color:#f8f8f4;
+	height: 14.6rem;
+	width: 100%;
+	padding: 1.7rem;
+	border-radius: 5%;
+	text-align: center;
+	transition: .2s;
+	cursor: pointer;
+}
+.main-bg .container .cstmr-sec .clmr .inr-cnt h5{
+	padding-top: 1.2rem;
+	font-size:1.3rem;
+   color: var(--btn);
+	font-weight: 600;
+	font-family: var(--font-familyh);
+
+	
+
+}
+.main-bg .container .cstmr-sec .clmr .inr-cnt  p{
+	font-size: 1rem;
+	color: var(--p);
+	font-weight: 300;
+	font-family: var(--font-familyp);
+	line-height:1.5rem;
+	margin-top: 1rem;
+	transition: .2s;
+
+}
+.main-bg .container .cstmr-sec .inr-cnt:hover{
+	margin-top: -.2rem;
+}
+
+
+
+
+
+.main-bg .container .cstmr-sec .clmr .inr-cntt h5{
+	padding-top: 1.2rem;
+	font-size:1.3rem;
+	color: var(--btn);
+	font-weight: 600;
+	font-family: var(--font-familyh);
+
+	
+
+}
+.main-bg .container .cstmr-sec .clmr .inr-cntt  p{
+	font-size: 1rem;
+	color: var(--p);
+	font-weight: 300;
+	font-family: var(--font-familyp);
+	line-height:1.5rem;
+	margin-top: 1rem;
+
+}
+.main-bg .container .cstmr-sec .clmr .inr-cntt{
+    background-color:#f8f8f4;
+	height: 14.6rem;
+	width: 100%;
+	padding: 1.7rem;
+	border-radius: 5%;
+	text-align: center;
+	margin-top: 1.1rem;
+	transition: .2s;
+	cursor: pointer;
+}
+/*---------------------ftr-sec-----------------------------------*/
+.main-bg .container .ftr-sec{
+	margin-top: 10rem;
+}
+.main-bg .container .ftr-sec .cnt p{
+    font-size: 1.1rem;
+     color: #555555;
+	font-weight: 400;
+	font-family: var(--font-familyp);
+	line-height:1.5rem;
+	margin-top: 2rem;
+}
+.main-bg .container .ftr-sec .cnt h4{
+	font-size:1.5rem;
+	color:#000;
+	font-weight: 500;
+	font-family: var(--font-familyp);
+	line-height: 2rem;
+
+}
+.main-bg .container .ftr-sec .cnt ul li{
+	list-style: none;
+	padding-top: 1rem;
+
+
+}
+.main-bg .container .ftr-sec .cnt ul li a{
+	color: #555555;
+	font-size: 1rem;
+	font-family: var(--font-familyp);
+}
+
+.main-bg .pr{
+	text-align: center;
+	font-size: 1.1rem;
+	font-family: var(--font-familyp);
+	margin-top: 3rem;
+}
